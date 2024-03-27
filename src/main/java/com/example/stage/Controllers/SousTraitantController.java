@@ -38,7 +38,7 @@ public class SousTraitantController {
         SousTraitant sousTraitant = sousTraitantRepository.findById(id)
                 .orElseThrow(() -> new IllegalArgumentException("Invalid sous-traitant Id:" + id));
 
-        sousTraitant.setUsername(sousTraitantDetails.getUsername());
+        sousTraitant.setTitre(sousTraitantDetails.getTitre());
         sousTraitant.setEmail(sousTraitantDetails.getEmail());
         sousTraitant.setPhoneNumber(sousTraitantDetails.getPhoneNumber());
         sousTraitant.setFirstName(sousTraitantDetails.getFirstName());

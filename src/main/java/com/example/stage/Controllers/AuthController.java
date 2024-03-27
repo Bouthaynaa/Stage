@@ -174,4 +174,6 @@ public class AuthController {
 
         return "User verified successfully";
     }
+
+
 }

@@ -20,7 +20,7 @@ public class SousTraitant {
 
     @NotBlank
     @Size(max = 20)
-    private String username;
+    private String titre;
 
     @NotBlank
     @Size(max = 50)

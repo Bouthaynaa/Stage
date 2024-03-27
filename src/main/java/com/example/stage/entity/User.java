@@ -43,6 +43,7 @@ public class User {
     private String password;
     private String verificationToken;
     private boolean verified;
+    private String resetCode;
 
 
     @ManyToMany(fetch = FetchType.LAZY)
